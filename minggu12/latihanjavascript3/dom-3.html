@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Memilih Elemen Berdasarkan ID</title>
+</head>
+
+<body>
+
+<p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing
+elit.
+ Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+ debitis commodi ipsum illo dolorum consequatur sed laudantium
+suscipit quis magni,
+ maiores in?</p>
+ <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing
+elit.
+ Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+ debitis commodi ipsum illo dolorum consequatur sed laudantium
+suscipit quis magni,
+ maiores in?</p>
+ <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing
+elit.
+ Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+ debitis commodi ipsum illo dolorum consequatur sed laudantium
+suscipit quis magni,
+ maiores in?</p>
+
+	<script>
+		 var paragraf = document.getElementsByClassName("paragraf");
+		 setInterval(function () {
+			 paragraf[0].style.color = "red";
+			 paragraf[1].style.color = "green";
+			 paragraf[2].style.color = "blue";
+			 
+		 setTimeout(function () {
+			 paragraf[0].style.color = "yellow";
+			 paragraf[1].style.color = "silver";
+			 paragraf[2].style.color = "orange";
+		 }, 500)
+		 }, 1000);
+	</script>
+</body>
+
+</html>
