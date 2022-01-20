@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terbaru.com</title>
+    <link rel="stylesheet" type="text/css" href="bahan/data/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #29fc16;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <h1>Berita Terbaru.com</h1>
+        </div>
+        <div id="topnav" class="topnav">
+            <a href="article.php">- Kembali</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Berita Timnas Indonesia - Shin Tae-yong Panggil Dua Pemain Muda PSIS Semarang</h1>
+                <p><i>Minggu, 16 Jan 2022 20:28 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="bahan/foto/bola.jpg"
+                        alt="Berita Timnas Indonesia - Shin Tae-yong Panggil Dua Pemain Muda PSIS Semarang"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            BATAM, TRIBUNBATAM.id - Dua pemain muda berbakat PSIS Semarang, Pratama Arhan 
+                            dan Alfeandra Dewangga, kembali dipanggil Timnas Indonesia jelang FIFA Matchday digelar.
+                            Sebagaimana diketahui, Pratama Arhan dan Alfeandra Dewangga menjadi pilihan utama pelatih Timnas Indonesia
+                            Shin Tae-yong saat berhadapan dengan Timor Leste pada tanggal 24 dan 27 Januari 2022 mendatang.
+                            Shin Tae-yong sendiri telah mengumumkan 27 pemain yang bakal dipersiapkan pada laga uji coba tersebut.
+                            Pelatih asal Korea Selatan tampaknya mempertahankan para pemain yang tampil apik saat membela skuat Garuda pada Piala AFF 2020 lalu.
+                            Meski ditinggal oleh Pratama Arhan dan Alfeandra Dewangga untuk sementara waktu
+                            pelatih PSIS Semarang, Dragan Djukanovic tak ingin terlalu ambil pusing.
+                            Ia memilih untuk fokus membenahi PSIS Semarang jelang pekan ke-21 BRI Liga 1 2021
+                            2022 kembali dilaksanakan.Terbukti, para pemain Laskar Mahesa Jenar sudah melaksanakan latihan pasca laga menghadapi Arema FC dua hari lalu.
+                        </p>
+                        <p>
+                            Pada latihan tersebut, Dragan Djukanovic memberikan materi yang cukup melelahkan para pemain. 
+                            Mereka diminta untuk melakukan latihan transisi dengan intensitas yang cukup tinggi. 
+                            Transisi pemain selama di lapangan memang menjadi atensi tersendiri baginya. 
+                            Oleh sebab itu, Dragan Djukanovic ingin memperbaiki hal tersebut guna menghadapi ketatnya persaingan pada putaran kedua Liga 1.
+                            "Setelah libur kami latihan dengan intensitas yang kuat. Tadi ada transisi dan memperbaiki possession ball,"
+                            ungkap pelatih PSIS semarang, Dragan Djukanovic, dilansir dari laman resmi klub.
+                            Selain performa di lapangan, Dragan juga memberikan sorotan beberapa hal di luar lapangan
+                            seperti mentalitas para pemain PSIS Semarang."Sepak bola tak hanya soal taktik, mereka harus percaya diri juga untuk bermain.
+                             Karena saya rasa para pemain PSIS Semarang punya kualitas cukup baik," tambahnya.
+                             Saat ini, Pratama Arhan cs berada di peringkat ke-6 Klasemen Liga 1 dengan koleksi 31 poin dari 20 laga yang sudah dimainkan.
+                        </p>
+                        <p>Sumber: https://www.msn.com/id-id/olahraga/other/berita-timnas-indonesia-shin-tae-yong-panggil-dua-pemain-muda-psis-semarang/ar-AASVZvE?ocid=BingNewsSearch</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Daily News. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terbaru.com</title>
+    <link rel="stylesheet" type="text/css" href="bahan/data/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #e70f0ffd;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <h1>Berita Terbaru.com</h1>
+        </div>
+        <div id="topnav" class="topnav">
+            <a href="article.php">- Kembali</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>5 Tahun Bisu dan Lumpuh Akibat Kecelakaan, Pria Klaim Sembuh Usai Vaksin Covid-19</h1>
+                <p><i>Rabu, 19 Jan 2022 19:02 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="bahan/foto/vksn.jpg"
+                        alt="5 Tahun Bisu dan Lumpuh Akibat Kecelakaan, Pria Klaim Sembuh Usai Vaksin Covid-19"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Liputan6.com, India -Seorang pria di negara bagian Jharkhand, Indiayang mengalami lumpuh dan tidak bisa berbicara setelah
+                            terlibat dalam kecelakaan mobil yang tragis lima tahu lalu, dilaporkan mulai bisa berjalan
+                            dan berbicara setelah mendapatkan vaksin Covid-19. 
+                        </p>
+                        <p>
+                            Banyak dari kita terus mendengar tentang efek samping negatif dari vaksinasi
+                            terhadap virus Corona, namun Dularchand Munda akan memberi tahu
+                            bahwa mendapatkan vaksin Covid-19 adalah hal terbaik yang pernah terjadi padanya.
+                        </p>
+                        <p>
+                            Melansir dari Oddity Central, Rabu (19/1/2022), pria 55 tahun ini akhirnya mendapatkan vaksin Covid-19
+                            pada 4 Januari dan mulai merasakan kembali kakinya dalam beberapa jam. Kini, setelah lumpuh dan bisu selama 5 tahun
+                            ia sudah bisa berbicara lagi dan bisa berjalan dengan bantuan tongkat. 
+                            “Senang telah mengambil vaksin ini. Ada gerakan di kaki saya sejak mengambil vaksin pada 4Januari,” kata Munda kepada kantor berita India ANI.
+                            “Suara saya kembali dan kaki saya juga bergerak,” tambahnya.
+                            
+                        </p>
+                        <p>Sumber: https://www.liputan6.com/citizen6/read/4863745/5-tahun-bisu-dan-lumpuh-akibat-kecelakaan-pria-klaim-sembuh-usai-vaksin-covid-19</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Daily News. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>

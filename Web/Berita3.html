@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terbaru.com</title>
+    <link rel="stylesheet" type="text/css" href="bahan/data/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #e4fa1f;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <h1>Berita Terbaru.com</h1>
+        </div>
+        <div id="topnav" class="topnav">
+            <a href="article.php">- Kembali</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Aprindo Sediakan Minyak Goreng Rp 14 Ribu per Liter Mulai Hari Ini</h1>
+                <p><i>Rabu, 19 Jan 2022 16:41 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="bahan/foto/berita aprindo.jpg"
+                        alt="Aprindo Sediakan Minyak Goreng Rp 14 Ribu per Liter Mulai Hari Ini"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                             REPUBLIKA.CO.ID, JAKARTA -- Asosiasi Pengusaha Ritel Indonesia (Aprindo) kembali mendukung
+                             implementasi program pemerintah dalam menyediakan Minyak Goreng.
+                             Satu Harga bagi seluruh lapisan masyarakat. Hal itu dengan mengadakan penjualan minyak goreng 
+                             seharga Rp 14 ribu per liter.Program tersebut mulai aktif dan berjalan konkret pada hari ini, Rabu (19/1/2022)
+                             di seluruh gerai Anggota Ritel Modern Aprindo di seluruh Indonesia. Ketua Umum Aprindo
+                             Roy N Mandey mengatakan, ini bentuk dukungan riil dari para anggota ritel modern Aprindo kepada
+                             pemerintah melalui koordinasi intensif dengan Kementerian Perdagangan atas Kebijakan Program Minyak 
+                             Goreng Satu Harga di seluruh Indonesia sesuai Permendag.
+                             "Kami menyediakan minyak goreng baik kemasan sederhana maupun premium. Ukurannya mulai per satu liter dijual dengan harga sama
+                             yakni Rp 14 ribu, menggunakan stok atau persediaan minyak goreng yang ada saat ini di setiap gerai atau toko sambil menunggu pasokan minyak goreng dari distributor 
+                             dan produsen yang telah mendapat penugasan pemerintah," kata Roy dalam keterangan resmi yang diterima Republika, Rabu (19/1/2022).
+                        </p>
+                        <p>
+                            Aprindo, kata dia, selalu siap mendukung Pemerintah menstabilkan harga pangan. 
+                            Di antaranya kestabilan harga minyak goreng saat ini yang bergejolak dan berfluktuasi, 
+                            sehingga lebih terjangkau dan dapat dibeli oleh seluruh lapisan masyarakat Indonesia. 
+                            Jumlah pembelian dibatasi dua liter minyak goreng untuk dikonsumsi per konsumen.
+                            "Itu sebagai pemerataan bagi seluruh konsumen guna mendapatkan minyak goreng, sebagai salah satu kebutuhan pokok masyarakat. Dukungan Aprindo ini 
+                              melalui koordinasi aktif dan dukungan terbaik dari seluruh anggotanya,
+                              sebagai peran Aprindo yang berdiri sejak 28 tahun lalu, hadir dengan seluruh DPD/DPC di seluruh wilayah Indonesia," 
+                              kata Roy menjelaskan.
+                        </p>
+                        <p>
+                            Roy berpesan kepada konsumen seluruh wilayah Indonesia agar tidak perlu tergesa-gesa atau khawatir ketersediaan atau kekurangan minyak goreng pada 
+                            gerai/toko ritel modern. Sebab, stok ketersediaan minyak goreng menjadi komitmen pemerintah melalui rilis resmi Kementerian Perdagangan, untuk memenuhi
+                             kebutuhan pangan masyarakat dengan harga yang stabil dan terjangkau. 
+                             "Berbelanjalah dengan normal dan wajar sesuai kebutuhan serta tetap komitmen dan wajib disiplin melaksanakan Protokol Kesehatan (Prokes) 3-M pada saat ini,
+                              dalam masa pandemi yang sedang kita tanggulangi bersama. Jadi selain kebutuhan pokok kita (minyak goreng) dapat terpenuhi, kesehatan kita tetap terjaga," 
+                              tutur Roy.
+                        </p>
+                        <p>Sumber: https://www.msn.com/id-id/ekonomi/ekonomidanbisnis/aprindo-sediakan-minyak-goreng-rp-14-ribu-per-liter-mulai-hari-ini/ar-AASVOOE?ocid=BingNewsSearch</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Daily News. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
